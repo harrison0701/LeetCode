@@ -31,6 +31,7 @@ public int[] TwoNumberSum(int[] Number, int target)
 		}
 	return null;
 }
+
 public int[] TwoSum(int[] nums, int target)
 {
 	Dictionary<int, int> dic = new Dictionary<int, int>();
