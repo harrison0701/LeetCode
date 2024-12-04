@@ -3,7 +3,7 @@
 void Main()
 {
 	int[] nums1 = new int[] {1,2,2,1};
-	int[] nums2 = new int[] {12,13};
+	int[] nums2 = new int[] {1,2,13};
 	
 	Intersection2(nums1,nums2).Dump();
 	
