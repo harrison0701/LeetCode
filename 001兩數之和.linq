@@ -37,6 +37,7 @@ public int[] TwoSum(int[] nums, int target)
 	Dictionary<int, int> dic = new Dictionary<int, int>();
 	for (int i = 0; i < nums.Length; i++)
 	{
+		//先找定目標數字
 		int imp = target - nums[i];
 		if (dic.ContainsKey(imp) && dic[imp] != i)
 		{
